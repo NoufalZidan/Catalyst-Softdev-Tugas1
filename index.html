@@ -1,77 +1,145 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tugas 1 | Noufal Zidan Ivannov</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header id="header">
-        <div class="logo">
-            <img src="assets/logo.png" alt="KingFitness">
-        </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#beranda">Beranda</a></li>
-                <li><a href="#fasilitas">Fasilitas</a></li>
-                <li><a href="#harga">Harga</a></li>
-                <li><a href="#kontak">Kontak</a></li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <img src="assets/logo.png" alt="KingFitness" />
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#fasilitas">Fasilitas</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#harga">Harga</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section class="hero-section">
-            <div class="hero-text">
-                <h1>Bangun Badan Impianmu</h1>
-                <p>Latihan modern dengan alat terbaik.</p>
-                <a href="#harga" class="btn">Gabung Sekarang</a>
+      <section class="hero-section">
+        <div class="hero-text">
+          <h1>Ingin Berotot seperti Pria disamping?</h1>
+          <p>
+            Ayoo nge-gym di KingFitness! Fasilitas lengkap dan komunitas yang
+            ramah.
+          </p>
+          <div class="hero-cta">
+            <a href="#harga" class="btn btn-primary">Gabung Sekarang</a>
+            <a href="#fasilitas" class="btn btn-secondary">Lihat Fasilitas</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="assets/hero-image.jpg" alt="Member Sedang Latihan di Gym" />
+        </div>
+      </section>
+
+      <section id="beranda">
+        <h2>Tentang Kami</h2>
+        <p>
+          KingFitness bukan sekadar gym! ini adalah tempat di mana tekad
+          bertemu hasil. Sejak berdiri, kami telah membantu ratusan member di
+          Ngawi membentuk tubuh ideal dan gaya hidup sehat yang konsisten.
+        </p>
+      </section>
+
+      <section id="fasilitas">
+        <h2>Fasilitas</h2>
+
+        <div class="facility-list">
+          <div class="card">Alat Lengkap</div>
+          <div class="card">Personal Trainer</div>
+          <div class="card">Locker Room</div>
+        </div>
+      </section>
+
+      <section id="galeri">
+        <h2>Galeri Gym</h2>
+        <p class="galeri-desc">Suasana latihan di KingFitness</p>
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="assets/gallery1.jpeg" alt="Mas Amba">
             </div>
-
-            <div class="hero-image">
-                <img src="assets/hero-image.jpg" alt="Member Sedang Latihan di Gym">
+            <div class="gallery-item">
+                <img src="assets/gallery2.webp" alt="David Laid">
             </div>
-        </section>
-
-        <section id="beranda">
-            <h2>Tentang Kami</h2>
-            <p>KingFitness adalah tempat gym terbaik di ngawi</p>
-        </section>
-
-        <section id="fasilitas">
-            <h2>Fasilitas</h2>
-
-            <div class="facility-list">
-                <div class="card">Alat Lengkap</div>
-                <div class="card">Personal Trainer</div>
-                <div class="card">Locker Room</div>
+            <div class="gallery-item">
+                <img src="assets/gallery3.avif" alt="cbum">
             </div>
-        </section>
-
-        <section id="harga">
-            <h2>Paket Membership</h2>
-            <div class="price-list">
-                <div class="price-card" data-plan="bulanan">
-                    <h3>Bulanan</h3>
-                    <p>Rp150.000</p>
-                </div>
-                <div class="price-card" data-plan="tahunan">
-                    <h3>Tahunan</h3>
-                    <p>Rp1.500.000</p>
-                </div>
+            <div class="gallery-item">
+                <img src="assets/gallery4.jpg" alt="Sam Sulek">
             </div>
-        </section>
+            <div class="gallery-item">
+                <img src="assets/gallery5.jpeg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/gallery6.avif" alt="">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/gallery7.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/gallery8.webp" alt="">
+            </div>
+            <div class="gallery-item">
+                <img src="assets/gallery9.jpg" alt="">
+            </div>
+        </div>
+      </section>
 
-        <section id="kontak">
-            <h2>Kontak</h2>
-            <p>0896-xxx-xxx</p>
-            <p>Instagram: @kingfitness</p>
-        </section>
+      <section id="harga">
+        <h2>Paket Membership</h2>
+        <div class="price-list">
+          <div class="price-card" data-plan="pemula">
+            <h3>Paket Pemula</h3>
+            <p class="price">Rp50.000</p>
+            
+            <ul class="benefit-list">
+                <li>Akses gym 2x per minggu</li>
+                <li>Konsultasi workout</li>
+                <li>Gratis air mineral</li>
+            </ul>
+          </div>
+          <div class="price-card" data-plan="biasa">
+            <h3>Paket Biasa</h3>
+            <p class="price">Rp200.000</p>
+
+            <ul class="benefit-list">
+                <li>Akses gym setiap hari</li>
+                <li>Konsultasi workout</li>
+                <li>Gratis air mineral</li>
+            </ul>
+          </div>
+          <div class="price-card" data-plan="gymmaxxing">
+            <h3>Paket Gymmaxxing</h3>
+            <p class="price">Rp2.500.000</p>
+
+            <ul class="benefit-list">
+                <li>Akses gym tak terbatas</li>
+                <li>Sesi PT tak terbatas</li>
+                <li>Gratis suplemen</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontak">
+        <h2>Kontak</h2>
+        <p>0896-xxx-xxx</p>
+        <p>Instagram: @kingfitness</p>
+      </section>
     </main>
 
     <footer>
-        <p>Copyright 2026 KingFitness</p>
+      <p>Copyright 2026 KingFitness</p>
     </footer>
-</body>
+  </body>
 </html>
