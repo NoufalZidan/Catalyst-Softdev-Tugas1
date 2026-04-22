@@ -420,6 +420,11 @@ footer {
 }
 
 @media (max-width: 480px) {
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+    }
+
     .gallery-grid {
         grid-template-columns: repeat(1, 1fr);
     }
