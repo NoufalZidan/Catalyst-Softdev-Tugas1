@@ -1,2 +1,2 @@
 # Catalyst-Softdev-Tugas1
-Repository hasil tugas 1 Softdev-Catalyst
+Repository ini berisi source code website yang mengimplementasikan materi dasar-dasar HTML & CSS
